@@ -36,10 +36,11 @@ const SignUp: React.FC = () => {
                         }} >
                             <Input name='name' icon='user' placeholder='Nome' />
                             <Input name='email' icon='mail' placeholder='E-mail' />
-                            <Input name='password' icon='lock' placeholder='Senha' />
-                            
-                            <Button onPress={() => formRef.current?.submitForm()} >Entrar</Button>
+                            <Input name='password' icon='lock' placeholder='Senha' />   
                         </Form>
+                        
+                        <Button onPress={() => formRef.current?.submitForm()} >Entrar</Button>
+
                         
                     </Container>
                 </ScrollView>
