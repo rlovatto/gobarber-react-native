@@ -30,4 +30,5 @@ adb reverse tcp:3333 tcp:3333
 [gobarber-nodejs](https://github.com/rlovatto/gobarber-nodejs)
 
 <br/><br/>
-![](gobarber_react_native.gif)
+### Create appointments:
+![](gobarber_create_appointment.gif)
